@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+}
+
+
+table {
+    background-color: lightskyblue;
+    border: solid black 2px;
+    margin:auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.movieTitle{
+    font-style: italic;
+}

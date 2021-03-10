@@ -1,0 +1,87 @@
+
+body {
+    background-color: tomato;
+}
+
+#circle{
+background-color: white;
+height: 45em;
+width: 45em;
+position: absolute;
+top: 30;
+left: 0;
+bottom: 30;
+right: 0;
+margin: auto;
+border-radius: 50%;
+box-shadow: 5px 5px 50px #212221;
+}
+#topBun{
+background-color: tan;
+height: 5.5em;
+width: 28em;
+position: absolute;
+top: -17em;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+border-radius: 40px;
+
+}
+#lettuce{
+background-color: rgb(89, 217, 89);
+height: 1em;
+width: 28em;
+margin: auto;
+position: absolute;
+top: -8em;
+bottom: 0;
+left:0 ;
+right:0 ;
+}
+#mustard{
+background-color: rgb(246, 229, 49);
+height: 1em;
+width: 28em;
+margin: auto;
+position: absolute;
+top: -5em;
+bottom: 0;
+left: 0;
+right: 0;
+}
+#ketchup{
+background-color: tomato;
+height: 1em;
+width: 28em;
+margin: auto;
+position: absolute;
+top: -2em;
+bottom: 0;
+left: 0;
+right: 0;
+}
+#patty{
+background-color: rgb(67, 35, 35);
+height: 3em;
+width: 28em;
+margin: auto;
+position: absolute;
+top: 3em;
+bottom: 0;
+left: 0;
+right: 0;
+}
+#bottomBun{
+background-color: tan;
+height: 5.5em;
+width: 28em;
+margin: auto;
+position: absolute;
+top: 14em;
+bottom: 0;
+left: 0;
+right: 0;
+border-radius: 40px;
+}

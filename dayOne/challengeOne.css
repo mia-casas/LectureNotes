@@ -1,0 +1,47 @@
+
+/* Silver and Gold*/
+
+html, body{
+    height: 100%;
+}
+
+h1 {
+    color: lightgreen;
+    text-align: center;
+}
+
+h3 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+body {
+    border-style: solid;
+    border-color: black;
+    border-width: 1em;
+    border-radius: 25px;
+    background-color: grey;
+}
+
+.examples{
+    border-style: solid;
+    border-radius: 25px;
+    background-color: lightgray;
+    text-align: center;
+    width: 32%;
+    display: inline-block;
+    margin: 3px;
+}
+
+#crown{
+width: 0;
+height: 0;
+border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+border-bottom: 50px solid gold;
+border-style: ;
+
+}
