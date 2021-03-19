@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+
+<!--
+DOCUMENT OBJECT MODEL
+-- allows our JS to interact with the HTML and CSS of our page. The document object model specifies how browsers should create a model of an HTML page and how JS can access and update the contents of a web page while it's in the browser window.
+
+the DOM is an object oriented representation of a web page, which can be modified with a scripting language suh as JS. The DOM covers two primary areas:
+  1. Making a model HTML page
+    - when the browserloads a webpage, it creats a model of the page in memory
+    -the DOM specifies the way in which browsers should structure the model in what is called the DOM tree
+    - the DOM is called an object model because the DOM tree itself is made up of objects
+  2. Accessing and changing the HTML page
+    - the DOM also provides methods and properties to access and update each object in the model, which in turn updates what the user sees in the browser
+
+Accessing:
+    Common methods for accessing a single element:
+    getElementByID()
+    querySelector() -- tag, ID, class...looks for first match
+    Common methods for accessing multiple elements:
+    querySelectorAll()
+    getELementsByClassName()
+    getElementsByTagName(
+
+Manipulating:
+    Common properties/methods for working with html content:
+        innerHTML
+        textContent
+    Common properties/methods for working with tag attributes:
+        className and id
+        setAttribute()
+        getAttribute()
+
+    )
+
+-->
+<!-- 1 -->
+<h1>Hello World</h1>
+
+<!-- 2 -->
+<p id="testParagraph">sample text</p>
+
+<!-- 3 -->
+<p class="sampleClass">This is another pragraph with a different class.</p>
+<p class="sampleClass">This is another pragraph with a different class.</p>
+<p class="sampleClass">This is another pragraph with a different class.</p>
+<p class="sampleClass">This is another pragraph with a different class.</p>
+
+
+<!-- 3.5 -->
+<span id="spanTest">Hello<span style="display: none">world</span></span>
+
+<!-- 4 -->
+<button id="clickThisButton">Click me!</button>
+
+<!-- 5 -->
+<label for="nameInput">Enter Your Name:</label>
+<input type="text" name="" id="nameInput" placeholder="Your Name Here">
+
+    <script src="script.js"></script>
+</body>
+</html>

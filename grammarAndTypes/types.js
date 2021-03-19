@@ -77,4 +77,5 @@ let list = [ 'item 1', 'item 2', 'item 3']
 -dig into array with array[0]
 */
 
-let burritos = ['large', 4, true]
+// let burritos = ['large', 4, true]
+
